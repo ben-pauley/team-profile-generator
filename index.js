@@ -147,7 +147,7 @@ function generateEngineer(data) {
                 <li class="list-group-item">Email: <a href="mailto:${
                   engineer.email
                 }">${engineer.email}</a></li>
-                <li class="list-group-item">GitHub: ${engineer.getGithub()}</li>
+                <li class="list-group-item">GitHub: <a href="https://github.com/${engineer.getGithub()}" target="_blank">${engineer.getGithub()}</a></li>
               </ul>
             </div>
           </section>
