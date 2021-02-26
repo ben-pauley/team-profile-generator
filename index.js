@@ -117,7 +117,9 @@ function generateBaseHTML(data) {
             <div class="card-body bg-light">
               <ul class="list-group text-dark">
                 <li class="list-group-item">ID: ${manager.id}</li>
-                <li class="list-group-item">Email: ${manager.email}</li>
+                <li class="list-group-item">Email: <a href="mailto:${
+                  manager.email
+                }">${manager.email}</a></li>
                 <li class="list-group-item">Office Number: ${manager.getOfficeNumber()}</li>
               </ul>
             </div>
@@ -142,7 +144,9 @@ function generateEngineer(data) {
             <div class="card-body bg-light">
               <ul class="list-group text-dark">
                 <li class="list-group-item">ID: ${engineer.id}</li>
-                <li class="list-group-item">Email: ${engineer.email}</li>
+                <li class="list-group-item">Email: <a href="mailto:${
+                  engineer.email
+                }">${engineer.email}</a></li>
                 <li class="list-group-item">GitHub: ${engineer.getGithub()}</li>
               </ul>
             </div>
@@ -167,7 +171,9 @@ function generateIntern(data) {
             <div class="card-body bg-light">
               <ul class="list-group text-dark">
                 <li class="list-group-item">ID: ${intern.id}</li>
-                <li class="list-group-item">Email: ${intern.email}</li>
+                <li class="list-group-item">Email: <a href="mailto:${
+                  intern.email
+                }">${intern.email}</a></li>
                 <li class="list-group-item">School: ${intern.getSchool()}</li>
               </ul>
             </div>
