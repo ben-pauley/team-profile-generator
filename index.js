@@ -111,15 +111,13 @@ function generateBaseHTML(data) {
         <div class="row">
           <section class="card text-white bg-primary border-light m-3 shadow">
             <div class="card-header">
-              <h4>${manager.name}</h4>
+              <h4>${manager.getName()}</h4>
               <h5><i class="fas fa-mug-hot"></i> ${manager.getRole()}</h5>
             </div>
             <div class="card-body bg-light">
               <ul class="list-group text-dark">
-                <li class="list-group-item">ID: ${manager.id}</li>
-                <li class="list-group-item">Email: <a href="mailto:${
-                  manager.email
-                }">${manager.email}</a></li>
+                <li class="list-group-item">ID: ${manager.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
                 <li class="list-group-item">Office Number: ${manager.getOfficeNumber()}</li>
               </ul>
             </div>
@@ -138,15 +136,13 @@ function generateEngineer(data) {
   return `
           <section class="card text-white bg-primary border-light m-3 shadow">
             <div class="card-header">
-              <h4>${engineer.name}</h4>
+              <h4>${engineer.getName()}</h4>
               <h5><i class="fas fa-glasses"></i> ${engineer.getRole()}</h5>
             </div>
             <div class="card-body bg-light">
               <ul class="list-group text-dark">
-                <li class="list-group-item">ID: ${engineer.id}</li>
-                <li class="list-group-item">Email: <a href="mailto:${
-                  engineer.email
-                }">${engineer.email}</a></li>
+                <li class="list-group-item">ID: ${engineer.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
                 <li class="list-group-item">GitHub: <a href="https://github.com/${engineer.getGithub()}" target="_blank">${engineer.getGithub()}</a></li>
               </ul>
             </div>
@@ -165,15 +161,13 @@ function generateIntern(data) {
   return `
           <section class="card text-white bg-primary border-light m-3 shadow">
             <div class="card-header">
-              <h4>${intern.name}</h4>
+              <h4>${intern.getName()}</h4>
               <h5><i class="fas fa-user-graduate"></i> ${intern.getRole()}</h5>
             </div>
             <div class="card-body bg-light">
               <ul class="list-group text-dark">
-                <li class="list-group-item">ID: ${intern.id}</li>
-                <li class="list-group-item">Email: <a href="mailto:${
-                  intern.email
-                }">${intern.email}</a></li>
+                <li class="list-group-item">ID: ${intern.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
                 <li class="list-group-item">School: ${intern.getSchool()}</li>
               </ul>
             </div>
