@@ -6,7 +6,7 @@ In this GitHub repository, you will find my completed Team Profile Generator. My
 
 ## Installation
 
-To install this project, you may either clone this repository to a local directory, or fork the repository to your own GitHub. After having installed Node.js, you must then install the inquirer module using `npm i inquirer` in the command line. Then you will be able to run the application by typing `node index.js`, and then follow the inline instructions. [This video]() demonstrates exactly how to do all of this, with a sample of the generated webpage [here]().
+To install this project, you may either clone this repository to a local directory, or fork the repository to your own GitHub. After having installed Node.js, you must then install the inquirer module using `npm i inquirer` in the command line. Then you will be able to run the application by typing `node index.js`, and then follow the inline instructions. The html file is generated in the `dist` folder, and you can run tests by executing `npm test` in the command line. [This video](https://drive.google.com/file/d/1pOVosjrQDfhHQkfZX1nca63zOFb7ck_W/view) demonstrates exactly how to do all of this, with a sample of the generated webpage [here](https://drive.google.com/file/d/1-PCVZJ-SivJ2oONPi9cV0X1HTynwJqm0/view?usp=sharing).
 
 ## Software Used
 
