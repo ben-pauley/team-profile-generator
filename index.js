@@ -184,11 +184,6 @@ function generateEndHTML() {
 }
 
 function init() {
-  // const data = fs.readFile("./src/index-template.html", (err, data) => {
-  //   if (err) throw err;
-  //   console.log(data.toString());
-  // });
-
   inquirer.prompt(managerQuestions).then((data) => {
     writeToFile("./dist/index.html", data);
   });
