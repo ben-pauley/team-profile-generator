@@ -103,7 +103,7 @@ function generateBaseHTML(data) {
       <title>Team Profiles</title>
     </head>
     <body>
-      <header class="jumbotron vertical-center text-center bg-danger text-white">
+      <header class="jumbotron jumbotron-fluid vertical-center text-center bg-danger text-white">
         <h1>My Team</h1>
       </header>
   
